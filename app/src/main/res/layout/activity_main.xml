@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vikram.googlelogin.MainActivity">
+
+
+    
+
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/ground"
+        android:text="google login"
+        android:id="@+id/google"
+        android:textColor="#fff"
+        />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_below="@+id/google"
+    android:background="@drawable/ground"
+    android:text="google logout"
+    android:id="@+id/signout"
+    android:textColor="#fff"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/signout"
+        android:background="@drawable/ground"
+        android:text="share"
+        android:id="@+id/share"
+        android:textColor="#fff"
+        />
+
+
+
+</RelativeLayout>
